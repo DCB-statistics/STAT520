@@ -24,9 +24,9 @@ BBB<-function(n,p,alpha,beta)
 }
 
 n<-1
-p<-0.3
-alpha<-1
-beta<-1
+p<-0.43
+alpha<-1.1
+beta<-.9
 
 BBB(n,p,alpha,beta)
 #Inference for Normal with Normal Prior
@@ -58,4 +58,4 @@ BNN<-function(n,mu,sigma,theta,tau)
   
 }
 
-BNN(10,20,5,12,4)
+BNN(10,20,5,12,5)
